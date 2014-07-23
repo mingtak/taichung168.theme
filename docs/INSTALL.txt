@@ -1,0 +1,17 @@
+taichung168.theme Installation
+------------------------------
+
+To install taichung168.theme using zc.buildout and the plone.recipe.zope2instance
+recipe to manage your project, you can do this:
+
+* Add ``taichung168.theme`` to the list of eggs to install, e.g.:
+
+    [buildout]
+    ...
+    eggs =
+        ...
+        taichung168.theme
+       
+* Re-run buildout, e.g. with:
+
+    $ ./bin/buildout
